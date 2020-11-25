@@ -40,12 +40,13 @@ html, body, .grid-container { height: 100%; margin: 0; }
     grid-area: 3 / 2 / 6 / 4; 
     display: grid;
     padding: 20px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.button {
-    height: 50px;
-    width: 50px;
+.number-button {
+    height: 105px;
+    width: 105px;
     border-radius: 15px;
 }
 
