@@ -34,6 +34,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
+    outline: 2px solid black;
 }
 
 .numbers { 
@@ -42,12 +43,18 @@ html, body, .grid-container { height: 100%; margin: 0; }
     padding: 20px;
     justify-content: space-between;
     padding: 10px;
+    /* outline: 5px solid black; */
 }
 
 .number-button {
-    height: 105px;
-    width: 105px;
+    height: 85px;
+    width: 85px;
     border-radius: 15px;
+}
+
+.number-button zero {
+  height: 85px;
+  width: 170px;
 }
 
 #one {
