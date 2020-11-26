@@ -34,21 +34,25 @@ html, body, .grid-container { height: 100%; margin: 0; }
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    outline: 2px solid black;
-}
+    
 
+}
 .numbers { 
-    grid-area: 3 / 2 / 6 / 4; 
+    grid-area: 3 / 2 / 5 / 4; 
     display: grid;
-    padding: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
-    /* outline: 5px solid black; */
+    /* outline: 1px solid #000; */
+}
+.zero-point {
+  grid-area: 5/ 2 / 5 / 4;
+  display: grid;
+  outline: 2px solid black;
 }
 
 .number-button {
-    height: 85px;
-    width: 85px;
+    height: 75px;
+    width: 75px;
     border-radius: 15px;
 }
 
